@@ -22,8 +22,8 @@ Licensed under the [MIT License](LICENSE)
 
 It exposes two public methods:
 
-- `CodeFormatter.FormatModule([ModuleName As String])`  
-  Formats a specific module by name. If no module name is provided, the currently active module will be formatted.
+- `CodeFormatter.FormatModule([module  As Variant])`  
+ Formats a specific module. You can pass either the module's name as a string or a VBComponent object (to format a module from another VBA project). If no argument is provided, the currently active module will be formatted by default.
 
 - `CodeFormatter.FormatProject()`  
   Formats **all modules** in the current VBA project.
