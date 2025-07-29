@@ -9,7 +9,7 @@ Licensed under the [MIT License](LICENSE)
 
 ## Important Notice
 
-- This tool **modifies existing VBA code** by rewriting it with standardized formatting (indentation, spacing and variable placement within the procedure are modified).
+- This tool **modifies existing VBA code** by rewriting it with standardized formatting (indentation, spacing and placement of variable declarations within the procedure are modified).
 - **Use only on backup copies** of your files. Test the functionality after formatting thoroughly before applying changes to production code.
 - The author is **not responsible for any data loss or code malfunction** resulting from the use of this tool.
 - This module relies on `Scripting.Dictionary` (late binding), and therefore **requires Windows** to function.
