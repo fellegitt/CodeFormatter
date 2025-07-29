@@ -8,7 +8,7 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 'CODE FORMATTER CLASS MODULE
-' Original Author: Tibor Fellegi (GitHub: fellegitt, Gmail: same username – derive address as needed)
+' Original Author: Tibor Fellegi (GitHub: fellegitt, Gmail: same username â€“ derive address as needed)
 ' Last updated: 2025-07-29
 '
 ' MIT License
@@ -105,7 +105,6 @@ Public Sub FormatProject()
     For Each component In vbComp.VBComponents
         FormatModule component.CodeModule
     Next
-    Set vbComp = Nothing
     Debug.Print "Project was formatted successfully."
  
 End Sub
